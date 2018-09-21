@@ -16,7 +16,7 @@ In the client folder, run the following commands:
 
 ```
 npm install
-webpack
+npm run build
 ```
 
 You can now click on the index.html file in client/dist and see a message that you've succeeded.
