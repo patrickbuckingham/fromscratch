@@ -1,11 +1,11 @@
 {
   "name": "fake_webgame_client",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "version": "1.0.0",
   "description": "This is a game project for learning web development",
+  "scripts": {
+    "build": "webpack"
+  },
   "license": "MIT",
   "repository": "",
   "devDependencies": {
