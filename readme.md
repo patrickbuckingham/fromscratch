@@ -4,7 +4,7 @@ This file assumes you want a project that has finished React Class Components, b
 
 ## Getting Started
 
-Clone this project and checkout the branch 'react_setup'.
+Clone this project and checkout the branch 'class_components'.
 
 ### Prerequisites
 
