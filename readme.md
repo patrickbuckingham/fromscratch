@@ -1,6 +1,6 @@
 # Web Development
 
-This file assumes you want a project that has finished React Setup, but nothing more.
+This file assumes you want a project that has finished React Class Components, but nothing more.
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ npm install
 npm run build
 ```
 
-You can now click on the index.html file in client/dist and see a message that you've succeeded.
+You can now open the index.html file in client/dist and see a message that you've succeeded.
 
 ## Authors
 

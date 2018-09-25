@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import App from './components/app/app.js';
+
 ReactDOM.render(
-  <div> React is here!
-    <br/>
-    <button>IS A BUTTON A GAME?</button>
-  </div>,
+  <App />,
   document.getElementById("content")
 );
