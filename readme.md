@@ -1,10 +1,10 @@
 # Web Development
 
-This file assumes you want a project that has finished React Class Components, but nothing more.
+This file assumes you want a project that has finished Functional Components, but nothing more.
 
 ## Getting Started
 
-Clone this project and checkout the branch 'react_setup'.
+Clone this project and checkout the branch 'function_components'.
 
 ### Prerequisites
 
