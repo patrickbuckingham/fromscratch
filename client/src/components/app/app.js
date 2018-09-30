@@ -1,5 +1,9 @@
 import React from 'react';
 
+import BugCounter from '../bugcounter/bugcounter.js';
+import BugButton from '../bugbutton/bugbutton.js';
+import Header from '../header/header.js';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -15,15 +19,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="header">
-          WASP HUNTER
-        </div>
-        <button onClick={()=>this.killWasp()}>
-          HUNT WASP
-        </button>
-        <div>
-          You hunted {this.state.deadWasps} wasps. Good job!
-        </div>
+        <Header />
+        <BugButton killWasp={()=>this.killWasp()} />
+        <BugCounter deadWasps={this.state.deadWasps} />
       </div>
   )}
 }
