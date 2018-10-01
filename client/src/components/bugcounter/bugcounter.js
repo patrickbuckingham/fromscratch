@@ -1,5 +1,15 @@
 import React from 'react';
 
+import { connect } from "react-redux";
+
+const mapStateToProps = state => {
+  return {
+    deadWasps: state.deadWasps
+  };
+};
+
+const mapDispatchToProps = null;
+
 const BugCounter = function(props) {
   return (
     <div>
@@ -8,4 +18,4 @@ const BugCounter = function(props) {
   );
 };
 
-export default BugCounter;
+export default connect(mapStateToProps, mapDispatchToProps)(BugCounter);

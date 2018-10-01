@@ -1,10 +1,10 @@
 # Web Development
 
-This file assumes you want a project that has finished Functional Components, but nothing more.
+This file assumes you want a project that has finished React Redux, but nothing more.
 
 ## Getting Started
 
-Clone this project and checkout the branch 'function_components'.
+Clone this project and checkout the branch 'react_redux'.
 
 ### Prerequisites
 
@@ -16,7 +16,7 @@ In the client folder, run the following commands:
 
 ```
 npm install
-npm run build
+npm run watch
 ```
 
 You can now open the index.html file in client/dist and see a message that you've succeeded.
