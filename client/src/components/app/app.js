@@ -1,29 +1,22 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+
+import store from '../../store/index.js';
 
 import BugCounter from '../bugcounter/bugcounter.js';
 import BugButton from '../bugbutton/bugbutton.js';
 import Header from '../header/header.js';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state={
-      deadWasps: 0
-    }
-  }
-
-  killWasp() {
-    this.setState({deadWasps: this.state.deadWasps+1});
-  }
-
-  render() {
-    return (
+const App = function(props) {
+  return (
+    <Provider store={store}>
       <div>
-        <Header />
-        <BugButton killWasp={()=>this.killWasp()} />
-        <BugCounter deadWasps={this.state.deadWasps} />
+        <Header/>
+        <BugButton/>
+        <BugCounter/>
       </div>
-  )}
+    </Provider>
+  );
 }
 
 export default App;
